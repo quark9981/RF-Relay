@@ -1,5 +1,6 @@
 # RF-Relay
-一个中继无线信号的有趣实验An interesting experiment in relaying wireless signals
+一个中继无线信号的非严谨实验
+A non-rigorous experiment to relay wireless signals
 ## 简介
 RF-Relay 使用 HackRF 设备进行中继无线信号实验的概念验证，无法保证通信效率。
 由`client-rx` 和 `server-tx`两个程序主题构成。其中`client-rx` 接收无线信号通过 TCP 发送到 `server-tx`，`server-tx` 接收数据通过 HackRF 发送出去。
