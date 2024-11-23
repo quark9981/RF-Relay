@@ -70,7 +70,6 @@ git clone https://github.com/quark9981/RF-Relay.git
 #### 构建 `client-rx`
 
 ```bash
-go mod init client-rx
 cd client-rx
 go build -o client-rx main.go
 ```
@@ -78,7 +77,6 @@ go build -o client-rx main.go
 #### 构建 `server-tx`
 
 ```bash
-go mod init server-tx
 cd server-tx
 go build -o server-tx main.go
 ```
